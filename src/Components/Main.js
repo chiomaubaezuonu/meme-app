@@ -55,7 +55,7 @@ function Main(){
             />
             <button className="btn" onClick={handleClick}>Get a new meme image  🖼</button>
             <div className="meme-div">
-                <img className="url-img" src = {getUrlImage.image} />
+                <img className="url-img" alt="meme-image" src = {getUrlImage.image} />
                 <h1 className="meme-text">{inputData.topText}</h1> 
 
             </div>
