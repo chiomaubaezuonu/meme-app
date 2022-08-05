@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue;
+   
+}
+.header-div{
+    display: flex;
+    /* background-color: linear-gradient(90deg, #672280 1.18%, #A626D3 100%); */
+    background-color: #A626D3;
+    padding: 0.6rem 4rem;
+    color: white;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.troll{
+    width: 3rem;
+    margin-right: 0.6rem;
+}
+.left{
+    display: flex;
+    margin-right: auto;
+}
+h3{
+    font-size: 1.5rem;
+}
+input{
+    /* padding: 1rem;
+    margin: 3rem 4.4rem; */
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-right: 0.1rem;
+    margin-left: 2rem;
+    width: 40%;
+    border: none;
+    border-radius: 0.4rem;
+}
+.wrapper{
+    width: 60%;
+    background-color: yellow;
+    margin: 0 auto;
+}
+.main-content{
+    width: 70%;
+    margin: auto;
+    /* height: 100vh; */
+}
+.btn{
+    padding: 0.6rem 5rem;
+    width: 85%;
+    color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-left: 2rem;
+    background-color: #A626D3;
+}
+.meme-div{
+    width: 85%;
+    height: 10%;
+    margin-left: 2rem;
+    position: relative;
+}
+.url-img{
+    width: 100%;
+    height:20rem;
+    margin-bottom: 1rem;
+    z-index: -1;
+}
+.meme-text{
+    z-index: 1;
+}
